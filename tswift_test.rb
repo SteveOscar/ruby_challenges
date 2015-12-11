@@ -1,8 +1,8 @@
-require_relative 'ruby_assess1'
+require_relative 'tswift'
 require 'minitest'
 require 'minitest/autorun'
 
-class RubyAssessOneTest < Minitest::Test
+class TswiftTest < Minitest::Test
 
   def test_file_is_sanitized
     lyrics = Tswift.new.text
