@@ -1,5 +1,3 @@
-require 'pry'
-
 class Translator
   def vowels
     'aeiouy'
